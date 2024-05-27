@@ -11,7 +11,6 @@ public class averageOfNaturalNUm {
         int Avg=0;
         for (int i=1; i<=a; i++) {
             sum= sum+i;
-
         }
         Avg= sum/2;
         System.out.println("Average of natural numbers upto- "+a +" = "+Avg);
