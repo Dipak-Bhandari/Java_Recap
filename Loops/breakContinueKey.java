@@ -31,12 +31,18 @@ public class breakContinueKey {
 //            }
 //            System.out.println(i);
 //        }
-        int i = 0;
-        do{
-            if(i==4) continue;
-            System.out.println(i);
-            i++;
-        }while (i<=6);
+//        int i = 0;
+//        do{
+//            if(i==4) continue;
+//            System.out.println(i);
+//            i++;
+//        }while (i<=6);
+
+        for (int i = 0; i <=20 ; i++) {
+            if(i==2 || i==8) continue;
+            if (i>=15)break;
+            System.out.println("gave tofee to "+i);
+        }
     }
 }
 
