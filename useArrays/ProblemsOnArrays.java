@@ -6,7 +6,7 @@ public class ProblemsOnArrays {
         int numbers[] = {23,12,6,7,15,3,2,56};
         int sum=0;
         int minnum=Integer.MAX_VALUE; // this holds the maximum value of int
-
+        System.out.println(minnum);
         // sum of every number using foreach loop
         for(int number:numbers){
             sum =sum+number;

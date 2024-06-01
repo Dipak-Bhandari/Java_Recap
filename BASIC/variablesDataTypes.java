@@ -10,10 +10,9 @@ public class variablesDataTypes {
         short s= 124;
         long l= 8539845;
         String  str= "happy";
-
-
-        // Implicite DataType Conversion = directly convert any small datatype into larger datatype
+        // Implicit DataType Conversion = directly convert any small datatype into larger datatype
         // int - long, int - string
+        System.out.println(str);
 
         int count= 13;
         long countLong = count;
@@ -21,7 +20,7 @@ public class variablesDataTypes {
         //print "countLong" to access "count"
         System.out.println(countLong);
 
-        // Explicit datatype conversion
+        // Explicit datatype conversion is converting larger datatype to small
         long sum = 90;
         int sumLong= (int)sum;
         //print the int variable "sumLong" to access "sum"
@@ -31,6 +30,5 @@ public class variablesDataTypes {
         byte newAge= (byte)age; //Type CASTING/ TYPE CONVERSION
         //PRINT
         System.out.println(newAge);
-
     }
 }
