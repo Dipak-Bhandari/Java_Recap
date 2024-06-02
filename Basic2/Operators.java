@@ -8,9 +8,9 @@ public class Operators {
 //        int c = a+b;
 //        int d = a-b;
 //        int e = a*b;
-//        double f= (double)a/b;
-//        int g = a%b;
-
+//        double f= (double)a/b;  // to get answer in double implicit conversion to double
+//        int g = a%b;  // modulus for remainders
+//
 //        System.out.println(c);
 //        System.out.println(d);
 //        System.out.println(e);
@@ -18,24 +18,24 @@ public class Operators {
 //        System.out.println(g);
 
         // Relational OPERATOR  operators used to check relations between two operands
-        int oneNum=11;
-        int secNum=43;
-        System.out.println(oneNum==secNum);
-        System.out.println(oneNum!=secNum);
-        System.out.println(oneNum>secNum);
-        System.out.println(oneNum<secNum);
-        System.out.println(oneNum>=secNum);
-        System.out.println(oneNum<=secNum);
+//        int oneNum=11;
+//        int secNum=43;
+//        System.out.println(oneNum==secNum);
+//        System.out.println(oneNum!=secNum);
+//        System.out.println(oneNum>secNum);
+//        System.out.println(oneNum<secNum);
+//        System.out.println(oneNum>=secNum);
+//        System.out.println(oneNum<=secNum);
 
         // LOGICAL OPERATORS similar to gate it performs logical AND, OR, NOT
 
-//        boolean firstexpn=true;
-//         boolean secondexpn=false;
-//        System.out.println(firstexpn && secondexpn);
-//
-//        System.out.println(firstexpn || secondexpn);
-//
-//        System.out.println(!firstexpn);
+        boolean firstexpn=true;
+         boolean secondexpn=false;
+        System.out.println(firstexpn && secondexpn);
+
+        System.out.println(firstexpn || secondexpn);
+
+        System.out.println(!firstexpn);
 
 
 
