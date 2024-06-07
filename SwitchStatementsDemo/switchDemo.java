@@ -9,11 +9,11 @@ public class switchDemo {
         int a= sc.nextInt();
         switch (a){
             case 1:
-                System.out.println("HAHA");
+                System.out.println("you found me !!");
                 break;
 
             case 2:
-                System.out.println("OH la la");
+                System.out.println(" I tricked you! lol!!");
                 break;
 
             default:
