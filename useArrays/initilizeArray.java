@@ -16,7 +16,7 @@ public class initilizeArray {
             System.out.println("name is : "+names[i]); // prints all declared data of array
 
         }
-            // for each loop to iterate
+            // for each loop to iterate an Array
         for(String name: names){
             System.out.println("for each : "+name); // this also prints all declared data
         }
