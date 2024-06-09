@@ -1,11 +1,6 @@
 package useArrays;
-
-import org.w3c.dom.ls.LSOutput;
-
 public class multiDeminisionalArray {
     public static void main(String args[]) {
-
-
         // 2D Array
         // in initialization we have to declare the size of that array too
 
@@ -22,20 +17,15 @@ public class multiDeminisionalArray {
 //    marks[2][0]=65;
 //    marks[2][1]=65;
 //    marks[2][2]=65;
-//
 //        System.out.println(marks[0][0]); // prints the value of row 0 col 0
 //        System.out.println(marks[0][4]); // exception ArrayIndexOutOfBounds
-
-
         // another way
     int marks[][]= {
             {27,52,64},
             {27,65,64},
             {12,65,44},
             {12,52,44}
-
     };
-
         System.out.println(marks[2][2]); // output 44 in row 2 col 2
     }
 }
