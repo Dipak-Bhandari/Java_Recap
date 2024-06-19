@@ -22,6 +22,10 @@ public class mathPreBuiltFunc {
         // returns floor value (5.8)-> 5
         System.out.println("floor value : "+Math.floor(5.8));
 
+        //returns higher value closer to given value
+        System.out.println("Celling value : "+Math.ceil(7.8));
 
+        //returns round off value
+        System.out.println("round off value : "+Math.round(5.9));
     }
 }
