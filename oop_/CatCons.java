@@ -31,8 +31,8 @@ public class CatCons {
 
     @Override public String toString()
     {
-        return ("Hi, this is my dog  " + this.getName()
-                + ".\n it's  breed,age and color are : "
+        return ("Hi, this is my cat  " + this.getName()
+                + ".\n Tt's  breed,age and color are : "
                 + this.getBreed() + "," + this.getAge()
                 + "," + this.getColor());
     }
