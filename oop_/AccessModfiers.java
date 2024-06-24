@@ -17,7 +17,7 @@ package oop_;
         {
             Ease obj = new Ease();
             // Trying to access private method of another class
-            obj.display();
+           // obj.display();
         }
     }
 
