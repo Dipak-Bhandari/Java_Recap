@@ -19,5 +19,11 @@ public class MainEncapsule {
         //calling default constructor Person  to
         //that increments count of objects created
         System.out.println("Objects created : "+Person.Count);
+
+        // static method can be called without creating an object
+        //Can be called using the class name
+
+        Person.PrintHello();
+
     }
 }
