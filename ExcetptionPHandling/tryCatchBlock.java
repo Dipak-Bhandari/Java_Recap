@@ -12,8 +12,12 @@ public class tryCatchBlock {
              int ans = a/b;
 
          }
-         catch (Exception e ){
+         catch (ArithmeticException e ){
              System.out.println("Exception : "+e.getMessage());
+         }
+//executes if there is any exception or not
+         finally {
+             System.out.println("Out of this !!");
          }
     }
 
